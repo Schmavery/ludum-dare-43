@@ -5,7 +5,11 @@ This is a game made for Ludum Dare 43<!--[Ludum Dare 43](https://ldjam.com/event
 Play now!
 ---
 
+Click here to play: 
 https://schmavery.github.io/ludum-dare-43/
+
+![image](https://user-images.githubusercontent.com/2154522/49360501-359bec00-f68e-11e8-9b6d-56d913e4e713.png)
+
 
 <!--You can also download the [native Mac app](https://github.com/bsansouci/ludum-dare-41/releases/download/1.2/MyDearFarm.zip) (slightly better performance).-->
 
