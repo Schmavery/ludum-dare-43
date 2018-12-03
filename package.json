@@ -6,12 +6,14 @@
     "build": "bsb -make-world",
     "build:web": "bsb -make-world -backend js",
     "build:native": "bsb -make-world -backend native",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "pack": "fpack build ./lib/js/src/index.js -o build --development"
   },
   "dependencies": {
+    "fpack": "^0.6.8",
     "reprocessing": "0.2.0"
   },
   "devDependencies": {
-    "bsb-native": "4.0.6"
+    "bsb-native": "^4.0.7000"
   }
 }
