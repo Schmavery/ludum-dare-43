@@ -1,28 +1,25 @@
-Reprocessing Example
+Fading Memories
+---
+This is a game made for Ludum Dare 43<!--[Ludum Dare 43](https://ldjam.com/events/ludum-dare/41/my-dear-farm)-->. The theme was "Sacrifices must be made". 
+
+Play now!
 ---
 
-Clone this repo to get started with [Reprocessing](https://github.com/schmavery/reprocessing).
+https://schmavery.github.io/ludum-dare-43/
 
-Demos are on other branches:
+<!--You can also download the [native Mac app](https://github.com/bsansouci/ludum-dare-41/releases/download/1.2/MyDearFarm.zip) (slightly better performance).-->
 
-- [Flappy Bird](https://github.com/bsansouci/reprocessing-example/tree/livestream-flappybird)
-- [2048](https://github.com/bsansouci/reprocessing-example/tree/2048)
+More Info
+---
+This game was build using [Reprocessing](https://github.com/schmavery/reprocessing), a 2D graphics library we wrote in ReasonML/OCaml, with an api inspired by Processing.
 
-...and more on the [Reprocessing repo](https://github.com/schmavery/reprocessing#projects-using-reprocessing).
+See [here](https://github.com/schmavery/reprocessing#projects-using-reprocessing) for more examples of games and demos built in Reprocessing.
 
-## How to
-```
-git clone https://github.com/bsansouci/reprocessing-example.git
-```
-
-### Install
-
-```
-npm install
-```
 
 ### Build
 ```
+git clone https://github.com/Schmavery/ludum-dare-43.git
+npm install
 npm run build
 ```
 
@@ -31,7 +28,7 @@ npm run build
 npm start
 ```
 
-To build to JS run `npm run build:web` and then run a static server, like `python -m SimpleHTTPServer` and go to `localhost:8000`. If you're using safari you can simply open the `index.html` and tick `Develop > Disable Cross-Origin Restrictions`.
+To build to JS run `npm run build:web` and then run a static server (like `python -m SimpleHTTPServer`) and go to `localhost:8000`. If you're using safari you can simply open the `index.html` and tick `Develop > Disable Cross-Origin Restrictions`.
 
 To build to native run `npm run build:native` and run `npm run start:native`
 
